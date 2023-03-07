@@ -1,0 +1,28 @@
+.blogpost {
+    display: block;
+    margin: 0 auto getSpacing(xsmall);
+    padding-bottom: getSpacing(small);
+    border-bottom: $border;
+}
+
+.post-date {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.post-content {
+    figure {
+        display: flex;
+        justify-content: center;
+        margin: getSpacing(small) auto;
+    }
+    img {
+        max-width: getSpacing(xlarge);
+    }
+}
+
+.back-link {
+    // text-decoration: underline;
+    font-weight: $light;
+    border-bottom: $border;
+}

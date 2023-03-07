@@ -1,0 +1,52 @@
+.contact-form {
+    max-width: getSpacing(xlarge);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    textarea {
+        height: 6rem;
+    }
+
+    .form-error {
+        color: red;
+        // margin-bottom: getSpacing(xsmall);
+    }
+}
+
+input,
+select,
+textarea {
+    padding: 0.4rem;
+    margin: getSpacing(xsmall) 0;
+    border: $border;
+    font-family: $font;
+    font-size: 1rem;
+}
+
+button {
+    @extend input;
+    background-color: getColor(primary);
+    border-color: getColor(primary);
+    color: getColor(white);
+}
+
+button:hover {
+    background-color: getColor(hover);
+}
+
+fieldset {
+    @extend .contact-form;
+    border: none;
+}
+
+::placeholder {
+    color: #707070;
+}
+
+.form-message {
+    text-align: center;
+    max-width: getSpacing(xlarge);
+    margin: 0 auto getSpacing(xsmall);
+}

@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: getColor(primary);
+    font-family: $headings;
+}
+
+p {
+    font-weight: $light;
+}
+
+h2 {
+    font-family: $headings;
+    color: getColor(primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    h1,
+    h2 {
+        color: getColor(dmGreen);
+    }
+}

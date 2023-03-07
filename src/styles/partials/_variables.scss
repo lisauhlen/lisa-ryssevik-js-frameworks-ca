@@ -1,0 +1,39 @@
+// Font
+
+$font: 'Libre Franklin', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$headings: 'Libre Franklin', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$light: 300;
+$bold: 400;
+
+// Spacing
+
+$spacing: (
+    xsmall: 20px,
+    small: 40px,
+    xlarge: 400px,
+    xxlarge: 800px,
+);
+
+@function getSpacing($space) {
+    @return map-get($spacing, $space);
+}
+
+// Colors
+
+$colors: (
+    primary: #035359,
+    black: #000,
+    white: #fff,
+    hover: #1b757d,
+    dmGreen: #61b2b8,
+);
+
+@function getColor($color) {
+    @return map-get($colors, $color);
+}
+
+// Border
+
+$border: 0.8px solid getColor(black);

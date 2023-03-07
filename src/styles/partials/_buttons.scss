@@ -1,0 +1,9 @@
+.logout {
+    background-color: getColor(primary);
+    border: none;
+    border-radius: 0;
+}
+
+.logout:hover {
+    background-color: getColor(hover);
+}

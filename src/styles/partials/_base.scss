@@ -1,0 +1,16 @@
+main {
+    width: 90%;
+    max-width: getSpacing(xxlarge);
+    margin: getSpacing(small) auto;
+}
+
+a:hover {
+    color: getColor(primary);
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    a:hover {
+        color: getColor(dmGreen);
+    }
+}
