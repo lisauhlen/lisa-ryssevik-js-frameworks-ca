@@ -3,7 +3,7 @@
 It was created to demonstrate the skills I acquired from the JavaScript Frameworks course.
 
 <div align="center">
-  <img alt="A screenshot of what the app looks like." src="https://res.cloudinary.com/lisaur/image/upload/v1678217823/jsf_ca_xij6dz.png" width="400px" />
+  <img alt="A screenshot of what the app looks like." src="https://res.cloudinary.com/lisaur/image/upload/v1678217823/jsf_ca_xij6dz.png" width="800px" />
 </div>
 
 ## Contents
